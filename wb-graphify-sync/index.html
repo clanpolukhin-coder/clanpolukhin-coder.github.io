@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WB Graphify Sync · рабочие материалы</title>
+<style>
+:root{color-scheme:light;--ink:#172b3a;--muted:#526575;--line:#d7e1e6;--paper:#fff;--accent:#1e5c58}
+*{box-sizing:border-box}html{background:#f3f6f7;color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+body{margin:0}a{color:#155c86;text-underline-offset:3px;overflow-wrap:anywhere}a:hover{text-decoration-thickness:2px}a:focus-visible{outline:3px solid #16786d;outline-offset:4px}
+.wrap{max-width:920px;margin:auto;padding:30px clamp(20px,5vw,56px) 44px}.brand{font-size:.88rem;font-weight:700;letter-spacing:.06em;color:var(--accent)}
+nav{display:flex;flex-wrap:wrap;gap:10px 24px;padding:18px 0 24px;border-bottom:1px solid var(--line)}nav a[aria-current=page]{color:var(--ink);font-weight:700}
+main{padding-top:30px}h1{font-size:clamp(1.8rem,4vw,2.65rem);line-height:1.18;letter-spacing:-.025em;margin:10px 0 22px;overflow-wrap:anywhere}h2{font-size:1.25rem;line-height:1.35;margin:28px 0 10px}p{margin:0 0 16px}ul,ol{padding-left:24px;margin:0 0 18px}li{margin:8px 0}.lead{font-size:1.12rem;color:#354f60}.note{border-left:4px solid #c2a24d;background:#fff9e8;padding:16px 20px;margin:22px 0}.note p:last-child{margin:0}.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:20px 0}code{font-family:ui-monospace,SFMono-Regular,monospace;font-size:.88em;overflow-wrap:anywhere;word-break:break-word}footer{border-top:1px solid var(--line);padding-top:22px;margin-top:34px;color:var(--muted);font-size:.9rem}.small{font-size:.94rem;color:var(--muted)}
+@media(max-width:430px){.wrap{padding-top:22px}.card{padding:18px}.note{padding:14px 16px}nav{gap:10px 18px}h1{font-size:1.9rem}}
+</style>
+</head>
+<body><div class="wrap">
+<nav aria-label="Основная навигация"><a href="index.html" aria-current="page">О приложении</a><a href="privacy.html">Обработка данных</a><a href="terms.html">Условия</a></nav>
+<main>
+<p class="brand">WB GRAPHIFY SYNC</p>
+<h1>Рабочие материалы и проверка результатов</h1>
+<p class="lead">Приложение владельца для работы с Google-документами через выбранного ИИ-помощника и отдельной проверки материалов системы мотивации.</p>
+<section class="card"><h2>Работа с Google по поручению владельца</h2>
+<p>Локальные подключения помогают найти и прочитать нужные файлы, проанализировать документы и таблицы, сохранить согласованный результат и обновить существующий объект по прежнему адресу.</p>
+<p>По отдельному поручению доступны загрузка файлов, импорт документов и таблиц, а также работа с кодом и запуск разрешённых Google Apps Script. Аккаунт и рабочая папка выбираются настройкой соответствующего проекта.</p>
+<p>Выбранные материалы и ответы инструментов могут входить в контекст текущего чата с OpenAI или Anthropic. Выбор помощника и конкретное поручение определяют обработку; каждый документ не отправляется автоматически обоим сервисам.</p></section>
+<section class="card"><h2>Проверка материалов мотивации</h2>
+<ol><li>Владелец отдельно подключает Google к серверному компоненту с двумя правами только на чтение.</li><li>В реестре согласуются источник, лист, диапазон, версия материала и рабочая задача.</li><li>После отдельного разрешения выбранный пакет передаётся OpenAI для предварительного разбора.</li><li>Итоговую приёмку выполняет человек. Ответ модели сам по себе не закрывает задачу и не разрешает выплату.</li></ol>
+<p>Google-разрешения шире выбранного материала. Ограничение конкретными источниками задаётся приложением. Два права только на чтение относятся к этому компоненту; другие локальные функции приложения могут изменять Google-документы по поручению.</p></section>
+<h2>Доступ и ответственность</h2>
+<p>WB Graphify Sync предназначен для владельца и согласованных им рабочих сценариев. Публичной регистрации чужих Google-аккаунтов на этих страницах нет. Подключение аккаунта не заменяет разрешение на конкретное действие.</p>
+<p>Владелец и контакт по доступу и данным: <a href="mailto:clan.polukhin@gmail.com">clan.polukhin@gmail.com</a>.</p>
+<p>Перед подключением прочитайте <a href="privacy.html">политику обработки данных</a> и <a href="terms.html">условия использования</a>.</p>
+</main>
+<footer>WB Graphify Sync · рабочие материалы и проверка результатов.
+<br>Контакт: <a href="mailto:clan.polukhin@gmail.com">clan.polukhin@gmail.com</a></footer>
+</div></body>
+</html>
